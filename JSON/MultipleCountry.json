@@ -1,0 +1,654 @@
+[{
+    "name": "Australia",
+    "topLevelDomain": [".au"],
+    "alpha2Code": "AU",
+    "alpha3Code": "AUS",
+    "callingCodes": ["61"],
+    "capital": "Canberra",
+    "altSpellings": ["AU"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "population": 24117360,
+    "latlng": [-27.0, 133.0],
+    "demonym": "Australian",
+    "area": 7692024.0,
+    "gini": 30.5,
+    "timezones": ["UTC+05:00", "UTC+06:30", "UTC+07:00", "UTC+08:00", "UTC+09:30", "UTC+10:00", "UTC+10:30", "UTC+11:30"],
+    "borders": [],
+    "nativeName": "Australia",
+    "numericCode": "036",
+    "currencies": [{
+        "code": "AUD",
+        "name": "Australian dollar",
+        "symbol": "$"
+    }],
+    "languages": [{
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+    }],
+    "translations": {
+        "de": "Australien",
+        "es": "Australia",
+        "fr": "Australie",
+        "ja": "オーストラリア",
+        "it": "Australia",
+        "br": "Austrália",
+        "pt": "Austrália",
+        "nl": "Australië",
+        "hr": "Australija",
+        "fa": "استرالیا"
+    },
+    "flag": "https://restcountries.eu/data/aus.svg",
+    "regionalBlocs": [],
+    "cioc": "AUS"
+}, {
+    "name": "Austria",
+    "topLevelDomain": [".at"],
+    "alpha2Code": "AT",
+    "alpha3Code": "AUT",
+    "callingCodes": ["43"],
+    "capital": "Vienna",
+    "altSpellings": ["AT", "Österreich", "Osterreich", "Oesterreich"],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "population": 8725931,
+    "latlng": [47.33333333, 13.33333333],
+    "demonym": "Austrian",
+    "area": 83871.0,
+    "gini": 26.0,
+    "timezones": ["UTC+01:00"],
+    "borders": ["CZE", "DEU", "HUN", "ITA", "LIE", "SVK", "SVN", "CHE"],
+    "nativeName": "Österreich",
+    "numericCode": "040",
+    "currencies": [{
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+    }],
+    "languages": [{
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "name": "German",
+        "nativeName": "Deutsch"
+    }],
+    "translations": {
+        "de": "Österreich",
+        "es": "Austria",
+        "fr": "Autriche",
+        "ja": "オーストリア",
+        "it": "Austria",
+        "br": "áustria",
+        "pt": "áustria",
+        "nl": "Oostenrijk",
+        "hr": "Austrija",
+        "fa": "اتریش"
+    },
+    "flag": "https://restcountries.eu/data/aut.svg",
+    "regionalBlocs": [{
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+    }],
+    "cioc": "AUT"
+}, {
+    "name": "Guinea-Bissau",
+    "topLevelDomain": [".gw"],
+    "alpha2Code": "GW",
+    "alpha3Code": "GNB",
+    "callingCodes": ["245"],
+    "capital": "Bissau",
+    "altSpellings": ["GW", "Republic of Guinea-Bissau", "República da Guiné-Bissau"],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "population": 1547777,
+    "latlng": [12.0, -15.0],
+    "demonym": "Guinea-Bissauan",
+    "area": 36125.0,
+    "gini": 35.5,
+    "timezones": ["UTC"],
+    "borders": ["GIN", "SEN"],
+    "nativeName": "Guiné-Bissau",
+    "numericCode": "624",
+    "currencies": [{
+        "code": "XOF",
+        "name": "West African CFA franc",
+        "symbol": "Fr"
+    }],
+    "languages": [{
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+    }],
+    "translations": {
+        "de": "Guinea-Bissau",
+        "es": "Guinea-Bisáu",
+        "fr": "Guinée-Bissau",
+        "ja": "ギニアビサウ",
+        "it": "Guinea-Bissau",
+        "br": "Guiné-Bissau",
+        "pt": "Guiné-Bissau",
+        "nl": "Guinee-Bissau",
+        "hr": "Gvineja Bisau",
+        "fa": "گینه بیسائو"
+    },
+    "flag": "https://restcountries.eu/data/gnb.svg",
+    "regionalBlocs": [{
+        "acronym": "AU",
+        "name": "African Union",
+        "otherAcronyms": [],
+        "otherNames": ["الاتحاد الأفريقي", "Union africaine", "União Africana", "Unión Africana", "Umoja wa Afrika"]
+    }],
+    "cioc": "GBS"
+}, {
+    "name": "Mauritania",
+    "topLevelDomain": [".mr"],
+    "alpha2Code": "MR",
+    "alpha3Code": "MRT",
+    "callingCodes": ["222"],
+    "capital": "Nouakchott",
+    "altSpellings": ["MR", "Islamic Republic of Mauritania", "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "population": 3718678,
+    "latlng": [20.0, -12.0],
+    "demonym": "Mauritanian",
+    "area": 1030700.0,
+    "gini": 40.5,
+    "timezones": ["UTC"],
+    "borders": ["DZA", "MLI", "SEN", "ESH"],
+    "nativeName": "موريتانيا",
+    "numericCode": "478",
+    "currencies": [{
+        "code": "MRO",
+        "name": "Mauritanian ouguiya",
+        "symbol": "UM"
+    }],
+    "languages": [{
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية"
+    }],
+    "translations": {
+        "de": "Mauretanien",
+        "es": "Mauritania",
+        "fr": "Mauritanie",
+        "ja": "モーリタニア",
+        "it": "Mauritania",
+        "br": "Mauritânia",
+        "pt": "Mauritânia",
+        "nl": "Mauritanië",
+        "hr": "Mauritanija",
+        "fa": "موریتانی"
+    },
+    "flag": "https://restcountries.eu/data/mrt.svg",
+    "regionalBlocs": [{
+        "acronym": "AU",
+        "name": "African Union",
+        "otherAcronyms": [],
+        "otherNames": ["الاتحاد الأفريقي", "Union africaine", "União Africana", "Unión Africana", "Umoja wa Afrika"]
+    }, {
+        "acronym": "AL",
+        "name": "Arab League",
+        "otherAcronyms": [],
+        "otherNames": ["جامعة الدول العربية", "Jāmiʻat ad-Duwal al-ʻArabīyah", "League of Arab States"]
+    }],
+    "cioc": "MTN"
+}, {
+    "name": "Mauritius",
+    "topLevelDomain": [".mu"],
+    "alpha2Code": "MU",
+    "alpha3Code": "MUS",
+    "callingCodes": ["230"],
+    "capital": "Port Louis",
+    "altSpellings": ["MU", "Republic of Mauritius", "République de Maurice"],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "population": 1262879,
+    "latlng": [-20.28333333, 57.55],
+    "demonym": "Mauritian",
+    "area": 2040.0,
+    "gini": null,
+    "timezones": ["UTC+04:00"],
+    "borders": [],
+    "nativeName": "Maurice",
+    "numericCode": "480",
+    "currencies": [{
+        "code": "MUR",
+        "name": "Mauritian rupee",
+        "symbol": "₨"
+    }],
+    "languages": [{
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+    }],
+    "translations": {
+        "de": "Mauritius",
+        "es": "Mauricio",
+        "fr": "Île Maurice",
+        "ja": "モーリシャス",
+        "it": "Mauritius",
+        "br": "Maurício",
+        "pt": "Maurícia",
+        "nl": "Mauritius",
+        "hr": "Mauricijus",
+        "fa": "موریس"
+    },
+    "flag": "https://restcountries.eu/data/mus.svg",
+    "regionalBlocs": [{
+        "acronym": "AU",
+        "name": "African Union",
+        "otherAcronyms": [],
+        "otherNames": ["الاتحاد الأفريقي", "Union africaine", "União Africana", "Unión Africana", "Umoja wa Afrika"]
+    }],
+    "cioc": "MRI"
+}, {
+    "name": "Nauru",
+    "topLevelDomain": [".nr"],
+    "alpha2Code": "NR",
+    "alpha3Code": "NRU",
+    "callingCodes": ["674"],
+    "capital": "Yaren",
+    "altSpellings": ["NR", "Naoero", "Pleasant Island", "Republic of Nauru", "Ripublik Naoero"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "population": 10084,
+    "latlng": [-0.53333333, 166.91666666],
+    "demonym": "Nauruan",
+    "area": 21.0,
+    "gini": null,
+    "timezones": ["UTC+12:00"],
+    "borders": [],
+    "nativeName": "Nauru",
+    "numericCode": "520",
+    "currencies": [{
+        "code": "AUD",
+        "name": "Australian dollar",
+        "symbol": "$"
+    }, {
+        "code": "(none)",
+        "name": null,
+        "symbol": "$"
+    }],
+    "languages": [{
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+    }, {
+        "iso639_1": "na",
+        "iso639_2": "nau",
+        "name": "Nauruan",
+        "nativeName": "Dorerin Naoero"
+    }],
+    "translations": {
+        "de": "Nauru",
+        "es": "Nauru",
+        "fr": "Nauru",
+        "ja": "ナウル",
+        "it": "Nauru",
+        "br": "Nauru",
+        "pt": "Nauru",
+        "nl": "Nauru",
+        "hr": "Nauru",
+        "fa": "نائورو"
+    },
+    "flag": "https://restcountries.eu/data/nru.svg",
+    "regionalBlocs": [],
+    "cioc": "NRU"
+}, {
+    "name": "Palau",
+    "topLevelDomain": [".pw"],
+    "alpha2Code": "PW",
+    "alpha3Code": "PLW",
+    "callingCodes": ["680"],
+    "capital": "Ngerulmud",
+    "altSpellings": ["PW", "Republic of Palau", "Beluu er a Belau"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "population": 17950,
+    "latlng": [7.5, 134.5],
+    "demonym": "Palauan",
+    "area": 459.0,
+    "gini": null,
+    "timezones": ["UTC+09:00"],
+    "borders": [],
+    "nativeName": "Palau",
+    "numericCode": "585",
+    "currencies": [{
+        "code": "(none)",
+        "name": "[E]",
+        "symbol": "$"
+    }, {
+        "code": "USD",
+        "name": "United States dollar",
+        "symbol": "$"
+    }],
+    "languages": [{
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+    }],
+    "translations": {
+        "de": "Palau",
+        "es": "Palau",
+        "fr": "Palaos",
+        "ja": "パラオ",
+        "it": "Palau",
+        "br": "Palau",
+        "pt": "Palau",
+        "nl": "Palau",
+        "hr": "Palau",
+        "fa": "پالائو"
+    },
+    "flag": "https://restcountries.eu/data/plw.svg",
+    "regionalBlocs": [],
+    "cioc": "PLW"
+}, {
+    "name": "Saudi Arabia",
+    "topLevelDomain": [".sa"],
+    "alpha2Code": "SA",
+    "alpha3Code": "SAU",
+    "callingCodes": ["966"],
+    "capital": "Riyadh",
+    "altSpellings": ["SA", "Kingdom of Saudi Arabia", "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "population": 32248200,
+    "latlng": [25.0, 45.0],
+    "demonym": "Saudi Arabian",
+    "area": 2149690.0,
+    "gini": null,
+    "timezones": ["UTC+03:00"],
+    "borders": ["IRQ", "JOR", "KWT", "OMN", "QAT", "ARE", "YEM"],
+    "nativeName": "العربية السعودية",
+    "numericCode": "682",
+    "currencies": [{
+        "code": "SAR",
+        "name": "Saudi riyal",
+        "symbol": "ر.س"
+    }],
+    "languages": [{
+        "iso639_1": "ar",
+        "iso639_2": "ara",
+        "name": "Arabic",
+        "nativeName": "العربية"
+    }],
+    "translations": {
+        "de": "Saudi-Arabien",
+        "es": "Arabia Saudí",
+        "fr": "Arabie Saoudite",
+        "ja": "サウジアラビア",
+        "it": "Arabia Saudita",
+        "br": "Arábia Saudita",
+        "pt": "Arábia Saudita",
+        "nl": "Saoedi-Arabië",
+        "hr": "Saudijska Arabija",
+        "fa": "عربستان سعودی"
+    },
+    "flag": "https://restcountries.eu/data/sau.svg",
+    "regionalBlocs": [{
+        "acronym": "AL",
+        "name": "Arab League",
+        "otherAcronyms": [],
+        "otherNames": ["جامعة الدول العربية", "Jāmiʻat ad-Duwal al-ʻArabīyah", "League of Arab States"]
+    }],
+    "cioc": "KSA"
+}, {
+    "name": "Tokelau",
+    "topLevelDomain": [".tk"],
+    "alpha2Code": "TK",
+    "alpha3Code": "TKL",
+    "callingCodes": ["690"],
+    "capital": "Fakaofo",
+    "altSpellings": ["TK"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "population": 1411,
+    "latlng": [-9.0, -172.0],
+    "demonym": "Tokelauan",
+    "area": 12.0,
+    "gini": null,
+    "timezones": ["UTC+13:00"],
+    "borders": [],
+    "nativeName": "Tokelau",
+    "numericCode": "772",
+    "currencies": [{
+        "code": "NZD",
+        "name": "New Zealand dollar",
+        "symbol": "$"
+    }],
+    "languages": [{
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "name": "English",
+        "nativeName": "English"
+    }],
+    "translations": {
+        "de": "Tokelau",
+        "es": "Islas Tokelau",
+        "fr": "Tokelau",
+        "ja": "トケラウ",
+        "it": "Isole Tokelau",
+        "br": "Tokelau",
+        "pt": "Toquelau",
+        "nl": "Tokelau",
+        "hr": "Tokelau",
+        "fa": "توکلائو"
+    },
+    "flag": "https://restcountries.eu/data/tkl.svg",
+    "regionalBlocs": [],
+    "cioc": ""
+}, {
+    "name": "Belgium",
+    "topLevelDomain": [".be"],
+    "alpha2Code": "BE",
+    "alpha3Code": "BEL",
+    "callingCodes": ["32"],
+    "capital": "Brussels",
+    "altSpellings": ["BE", "België", "Belgie", "Belgien", "Belgique", "Kingdom of Belgium", "Koninkrijk België", "Royaume de Belgique", "Königreich Belgien"],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "population": 11319511,
+    "latlng": [50.83333333, 4.0],
+    "demonym": "Belgian",
+    "area": 30528.0,
+    "gini": 33.0,
+    "timezones": ["UTC+01:00"],
+    "borders": ["FRA", "DEU", "LUX", "NLD"],
+    "nativeName": "België",
+    "numericCode": "056",
+    "currencies": [{
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+    }],
+    "languages": [{
+        "iso639_1": "nl",
+        "iso639_2": "nld",
+        "name": "Dutch",
+        "nativeName": "Nederlands"
+    }, {
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "name": "French",
+        "nativeName": "français"
+    }, {
+        "iso639_1": "de",
+        "iso639_2": "deu",
+        "name": "German",
+        "nativeName": "Deutsch"
+    }],
+    "translations": {
+        "de": "Belgien",
+        "es": "Bélgica",
+        "fr": "Belgique",
+        "ja": "ベルギー",
+        "it": "Belgio",
+        "br": "Bélgica",
+        "pt": "Bélgica",
+        "nl": "België",
+        "hr": "Belgija",
+        "fa": "بلژیک"
+    },
+    "flag": "https://restcountries.eu/data/bel.svg",
+    "regionalBlocs": [{
+        "acronym": "EU",
+        "name": "European Union",
+        "otherAcronyms": [],
+        "otherNames": []
+    }],
+    "cioc": "BEL"
+}, {
+    "name": "Macao",
+    "topLevelDomain": [".mo"],
+    "alpha2Code": "MO",
+    "alpha3Code": "MAC",
+    "callingCodes": ["853"],
+    "capital": "",
+    "altSpellings": ["MO", "澳门", "Macao Special Administrative Region of the People's Republic of China", "中華人民共和國澳門特別行政區", "Região Administrativa Especial de Macau da República Popular da China"],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "population": 649100,
+    "latlng": [22.16666666, 113.55],
+    "demonym": "Chinese",
+    "area": 30.0,
+    "gini": null,
+    "timezones": ["UTC+08:00"],
+    "borders": ["CHN"],
+    "nativeName": "澳門",
+    "numericCode": "446",
+    "currencies": [{
+        "code": "MOP",
+        "name": "Macanese pataca",
+        "symbol": "P"
+    }],
+    "languages": [{
+        "iso639_1": "zh",
+        "iso639_2": "zho",
+        "name": "Chinese",
+        "nativeName": "中文 (Zhōngwén)"
+    }, {
+        "iso639_1": "pt",
+        "iso639_2": "por",
+        "name": "Portuguese",
+        "nativeName": "Português"
+    }],
+    "translations": {
+        "de": "Macao",
+        "es": "Macao",
+        "fr": "Macao",
+        "ja": "マカオ",
+        "it": "Macao",
+        "br": "Macau",
+        "pt": "Macau",
+        "nl": "Macao",
+        "hr": "Makao",
+        "fa": "مکائو"
+    },
+    "flag": "https://restcountries.eu/data/mac.svg",
+    "regionalBlocs": [],
+    "cioc": ""
+}, {
+    "name": "Monaco",
+    "topLevelDomain": [".mc"],
+    "alpha2Code": "MC",
+    "alpha3Code": "MCO",
+    "callingCodes": ["377"],
+    "capital": "Monaco",
+    "altSpellings": ["MC", "Principality of Monaco", "Principauté de Monaco"],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "population": 38400,
+    "latlng": [43.73333333, 7.4],
+    "demonym": "Monegasque",
+    "area": 2.02,
+    "gini": null,
+    "timezones": ["UTC+01:00"],
+    "borders": ["FRA"],
+    "nativeName": "Monaco",
+    "numericCode": "492",
+    "currencies": [{
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+    }],
+    "languages": [{
+        "iso639_1": "fr",
+        "iso639_2": "fra",
+        "name": "French",
+        "nativeName": "français"
+    }],
+    "translations": {
+        "de": "Monaco",
+        "es": "Mónaco",
+        "fr": "Monaco",
+        "ja": "モナコ",
+        "it": "Principato di Monaco",
+        "br": "Mônaco",
+        "pt": "Mónaco",
+        "nl": "Monaco",
+        "hr": "Monako",
+        "fa": "موناکو"
+    },
+    "flag": "https://restcountries.eu/data/mco.svg",
+    "regionalBlocs": [],
+    "cioc": "MON"
+}, {
+    "name": "Myanmar",
+    "topLevelDomain": [".mm"],
+    "alpha2Code": "MM",
+    "alpha3Code": "MMR",
+    "callingCodes": ["95"],
+    "capital": "Naypyidaw",
+    "altSpellings": ["MM", "Burma", "Republic of the Union of Myanmar", "Pyidaunzu Thanmăda Myăma Nainngandaw"],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "population": 51419420,
+    "latlng": [22.0, 98.0],
+    "demonym": "Burmese",
+    "area": 676578.0,
+    "gini": null,
+    "timezones": ["UTC+06:30"],
+    "borders": ["BGD", "CHN", "IND", "LAO", "THA"],
+    "nativeName": "Myanma",
+    "numericCode": "104",
+    "currencies": [{
+        "code": "MMK",
+        "name": "Burmese kyat",
+        "symbol": "Ks"
+    }],
+    "languages": [{
+        "iso639_1": "my",
+        "iso639_2": "mya",
+        "name": "Burmese",
+        "nativeName": "ဗမာစာ"
+    }],
+    "translations": {
+        "de": "Myanmar",
+        "es": "Myanmar",
+        "fr": "Myanmar",
+        "ja": "ミャンマー",
+        "it": "Birmania",
+        "br": "Myanmar",
+        "pt": "Myanmar",
+        "nl": "Myanmar",
+        "hr": "Mijanmar",
+        "fa": "میانمار"
+    },
+    "flag": "https://restcountries.eu/data/mmr.svg",
+    "regionalBlocs": [{
+        "acronym": "ASEAN",
+        "name": "Association of Southeast Asian Nations",
+        "otherAcronyms": [],
+        "otherNames": []
+    }],
+    "cioc": "MYA"
+}]

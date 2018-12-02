@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - Nimble (7.3.1)
+  - OHHTTPStubs/Core (6.1.0)
+  - OHHTTPStubs/Default (6.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.1.0)
+  - OHHTTPStubs/Swift (6.1.0):
+    - OHHTTPStubs/Default
+  - Quick (1.3.2)
+  - ReachabilitySwift (4.3.0)
+  - SVGKit (2.1.0):
+    - CocoaLumberjack (~> 3.0)
+  - SwiftLint (0.27.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Nimble
+  - OHHTTPStubs/Swift
+  - Quick
+  - ReachabilitySwift
+  - SVGKit
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CocoaLumberjack
+    - Nimble
+    - OHHTTPStubs
+    - Quick
+    - ReachabilitySwift
+    - SVGKit
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
+  OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
+  Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  SVGKit: 8a2fc74258bdb2abb54d3b65f3dd68b0277a9c4d
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+
+PODFILE CHECKSUM: f4169ac50eddd4be5336dd83aa10b030bde9a32c
+
+COCOAPODS: 1.5.3

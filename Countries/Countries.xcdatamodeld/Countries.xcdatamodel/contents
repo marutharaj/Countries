@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDCountries" representedClassName="CDCountries" syncable="YES" codeGenerationType="class">
+        <attribute name="alpha2Code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alpha3Code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="altSpellings" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="borders" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="callingCodes" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="capital" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cioc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="demonym" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flag" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="gini" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latlng" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nativeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numericCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="population" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subregion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timezones" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="topLevelDomain" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="currencies" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDCurrencies" inverseName="countries" inverseEntity="CDCurrencies" syncable="YES"/>
+        <relationship name="languages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDLanguages" inverseName="countries" inverseEntity="CDLanguages" syncable="YES"/>
+        <relationship name="regionalBlocs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDRegionalBlocs" inverseName="countires" inverseEntity="CDRegionalBlocs" syncable="YES"/>
+        <relationship name="translations" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDTranslations" inverseName="countries" inverseEntity="CDTranslations" syncable="YES"/>
+    </entity>
+    <entity name="CDCurrencies" representedClassName="CDCurrencies" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="symbol" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="countries" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDCountries" inverseName="currencies" inverseEntity="CDCountries" syncable="YES"/>
+    </entity>
+    <entity name="CDLanguages" representedClassName="CDLanguages" syncable="YES" codeGenerationType="class">
+        <attribute name="iso6391" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iso6392" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nativeName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="countries" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDCountries" inverseName="languages" inverseEntity="CDCountries" syncable="YES"/>
+    </entity>
+    <entity name="CDRegionalBlocs" representedClassName="CDRegionalBlocs" syncable="YES" codeGenerationType="class">
+        <attribute name="acronym" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherAcronyms" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="otherNames" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="countires" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDCountries" inverseName="regionalBlocs" inverseEntity="CDCountries" syncable="YES"/>
+    </entity>
+    <entity name="CDTranslations" representedClassName="CDTranslations" syncable="YES" codeGenerationType="class">
+        <attribute name="translationbr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translationde" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translationes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translationfa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translationfr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translationhr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translationit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translationja" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translationnl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="translationpt" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="countries" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CDCountries" inverseName="translations" inverseEntity="CDCountries" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDCurrencies" positionX="-49.2265625" positionY="168.73046875" width="128" height="105"/>
+        <element name="CDLanguages" positionX="-45.69140625" positionY="320.04296875" width="128" height="120"/>
+        <element name="CDTranslations" positionX="348.9453125" positionY="38.39453125" width="128" height="210"/>
+        <element name="CDRegionalBlocs" positionX="117.66796875" positionY="463.3984375" width="128" height="120"/>
+        <element name="CDCountries" positionX="188.10546875" positionY="12.2421875" width="128" height="405"/>
+    </elements>
+</model>
