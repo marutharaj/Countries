@@ -144,36 +144,3 @@ extension CountryViewController: CountryDelegate {
         self.activityIndicator.removeFromSuperview()
     }
 }
-
-
-/*
- XCode version: 10.1
- Swift version: 4.2
- Design Pattern : Model View Presenter(MVP)
- UI Design: Storyboard and Autolayout
- Unit Testing framework: Quick and Nimble
- UI Testing framework: XCTest
- Dependency Manager: Cocoapod
- Persistence framework: CoreData
- Thirdparty Library:
-    SwiftLint: To enforce swift style and conventions
-    Alamofire: To communicate restcountries server
-    ReachabilitySwift: To find network reachability
-    OHHTTPStubs: To create mock web service call for unit testing
-    SVGKit: To render svg file on UIImageView
- 
- Architecture:
-    Presentation Layer:
-        CountryTableViewCell.swift
-        CountryDetailTableViewCell.swift
-        CountryCurrenciesTableViewCell.swift
-        CountryLanguagesTableViewCell.swift
-        CountryViewController.swift
-        CountryDetailViewController.swift
-    Business Layer:
-        Countries.swift
-        CountryPresenter.swift
-    Data Access Layer:
-        CoreDataManager.swift
-        CountryService.swift
- */
